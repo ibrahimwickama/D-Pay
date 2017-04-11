@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="bottom|center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pini"
+        android:id="@+id/textView2"
+        android:textColor="#434141"
+        android:layout_above="@+id/newPin"
+        android:layout_alignLeft="@+id/newPin"
+        android:layout_alignStart="@+id/newPin" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:id="@+id/newPin"
+        android:background="@drawable/rounded_shape_edittext"
+        android:layout_marginBottom="28dp"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:id="@+id/button"
+        android:background="@drawable/circle_button"
+        android:textColor="#ffffff"
+        android:onClick="goClicked"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/newPin"
+        android:layout_alignEnd="@+id/newPin"
+        android:layout_marginRight="23dp"
+        android:layout_marginEnd="23dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reset_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/newPin"
+        android:layout_alignStart="@+id/newPin"
+        android:src="@drawable/ic_lock_black_24dp"
+        android:clickable="true" />
+
+</RelativeLayout>

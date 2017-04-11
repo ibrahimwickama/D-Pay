@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">D-Pay03</string>
+    <string name="action_about">About</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_reset">Reset Pin</string>
+    <string name="action_clearCards">Clear cards</string>
+    <string name="title_activity_main">D-Pay03</string>
+</resources>
